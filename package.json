@@ -1,0 +1,16 @@
+{
+  "name": "pathfind",
+  "version": "1.0.0",
+  "description": "Imagine representing a grid-shaped game map as a 2-dimensional array. Each value of this array is\r boolean `true` or `false` representing whether that part of the map is passable (a floor) or blocked\r (a wall).",
+  "main": "Pathfinder.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node Pathfinder.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
