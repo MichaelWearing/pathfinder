@@ -1,4 +1,7 @@
 const FindShortestPath = (grid, start, finish) => {
+  if (grid.length < 1) {
+    return "Please make sure to pass a valid grid";
+  }
   if (grid[(start[0], start[1])] === undefined) {
     return "Start node is out of bounds";
   }
@@ -14,7 +17,7 @@ const FindShortestPath = (grid, start, finish) => {
     [1, 0], // Down
     [0, -1], // Left
     [0, 1], // Right
-];
+  ];
 
   while (queue.length > 0) {
     const [x, y, distance] = queue.shift();

@@ -54,3 +54,10 @@ test("If finish noode is outside of grid, expect to fail correctly", () => {
   );
 });
 
+const emptyGrid = [];
+
+test("Fail correctly if an empty grid is provided", () => {
+  expect(FindShortestPath(emptyGrid, [0, 1], [5, 5])).toBe(
+    "Please make sure to pass a valid grid"
+  );
+});
