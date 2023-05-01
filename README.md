@@ -43,4 +43,4 @@ It was a very fun problem to work on, and after refactoring a few times, I am ve
 
 I think it could have been fun to create a front end for this task. While not required, I think it may have been interesting to visualize what is happening while the algorithm is running.
 
-Other than that, I think it may have been interesting to experiment with points in between the start and finish node. For example, we add stop 1, stop 2 etc. With this addition, we would need to find a way to keep track of our journey, with the visited array, but once we got from one point to another, we would need to think of a way to allow ourselves to travel back if needed. I think this could be an interesting addition to the task.
+Other than that, I think it may have been interesting to experiment with points in between the start and finish node. For example, we add stop 1, stop 2 etc. With this addition, we would need to find a way to keep track of our journey, with the visited array, but once we got from one point to another, we would need to think of a way to allow ourselves to travel back if needed. I think this could be an interesting addition to the task.# pathfinder
